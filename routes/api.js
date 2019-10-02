@@ -7,5 +7,6 @@ router.get('/posts', blogCtrl.getAllPosts)
 router.put('/post/:id', blogCtrl.getOnePost)
 router.post('/post', blogCtrl.createPost)
 router.delete('/post/:id', blogCtrl.deletePost)
+router.put('/post/edit/:id', blogCtrl.editPost)
 
 module.exports = router
